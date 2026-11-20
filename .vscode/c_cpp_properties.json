@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "DOS Watcom 16-bit",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/vendor/mtcp/TCPINC",
+                "D:/WATCOM/H",
+                "D:/WATCOM/H/NT"
+            ],
+            "defines": [
+                "__WATCOMC__",
+                "__DOS__",
+                "_M_I86",
+                "_M_IX86",
+                "__SMALL__",
+                "CFG_H=\"src/DS86.CFG\""
+            ],
+            "intelliSenseMode": "windows-msvc-x64",
+            "cStandard": "c89",
+            "cPropagation": "mostIncludes",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src",
+                    "${workspaceFolder}/vendor/mtcp/TCPINC"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

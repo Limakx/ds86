@@ -1,0 +1,16 @@
+{
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.encoding": "utf8",
+    "files.associations": {
+        "*.cfg": "properties"
+    },
+    "search.exclude": {
+        "**/build": true,
+        "**/vendor": true
+    },
+    "files.exclude": {
+        "**/*.obj": true,
+        "**/*.map": true
+    }
+}
